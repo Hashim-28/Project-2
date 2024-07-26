@@ -7,7 +7,6 @@ html{
     z-index: 1;
     width: 100%;
     position: relative;
-    
     /* display: flex; */
 }
 #navbare h1{
@@ -89,7 +88,7 @@ html{
   position: absolute;
   height: 100%;
   width: 101.2%;
-  z-index: -2   ;
+  z-index: -2  ;
   /* behavior: co; */
     object-fit: cover;
     mask-repeat: no-repeat;
@@ -111,7 +110,7 @@ html{
     /* border: 2px solid white;
     border: transpa; */
     width: 350px;
-    padding: 180px 180px 0px;
+    padding:300px 180px 0px;
     color: white;
     font-family: "Anton SC", sans-serif;
     font-weight: 700;
@@ -136,12 +135,12 @@ html{
     color: white;
     border: none;
     border-radius: 10px;
-    width: 90px;
-    height: 25px;
+    width: 110px;
+    height: 30px;
     margin-left: 180px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 440;
+    font-weight: 700;
     font-style: normal;
 }
 #home button:hover{
@@ -188,19 +187,11 @@ html{
     color: black;
     opacity: 0.6;
 }
-#p2{
-    width: 400px;
-    margin-left: 18%;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    /* font-weight: 140; */
-    font-style: normal;
-    color: black;
-}
+
 #group{
     height: 450px;
     width: 350;
-    margin-top: -30%;
+    margin-top: -25%;
     margin-left: 60%;
     
 }
@@ -209,12 +200,12 @@ html{
     color: white;
     border: none;
     border-radius: 10px;
-    width: 90px;
-    height: 25px;
+    width: 110px;
+    height: 30px;
     margin-left: 18%;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 440;
+    font-weight: 700;
     font-style: normal;
 }
 #b2:hover{
@@ -225,7 +216,7 @@ html{
 }
 /* Services */
 #ser{
-    margin: auto;
+    margin-top: 15px;
     position: relative;
     width: 101%;
     height: 100%;
@@ -266,7 +257,7 @@ html{
     color: white;
     width: 350px;
     height: auto;
-    margin: 25% -37% 0px;
+    margin: 25% -37.5% 0px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: 140; */
@@ -275,15 +266,17 @@ html{
 #lo{
    
     position: absolute;
-    margin-left: 55%;
+    margin-left: 57%;
     
 }
 #lo li{
     /* margin-left: 55%; */
-    padding: 50px;
+    /* margin-top: 10%; */
+    padding: 45px;
     list-style: none;
 }
 #lo img{
+
     height: 35px;
     width: 35px;
     
@@ -334,7 +327,7 @@ html{
 #div1{
     position: absolute;
     border: 2px solid black;
-    width: 200px;
+    width: 250px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -343,14 +336,14 @@ html{
 #office{
     width: 34px;
     height: 34px;
-    padding: 50% 43% 0%;
+    padding: 30% 43% 0%;
 }
 #div1 h2{
     padding-left: 28%;
     color: orange;
 }
 #div1 p{
-    padding-top: -10px;
+    /* padding-top: -30px; */
     padding-left: 10px;
     padding-right: 10px;
     color: white;
@@ -358,8 +351,7 @@ html{
 #div1 button{
     background: orange;
     color: white;
-    border: none;
-        
+    border-radius: 10px;    
     border: transparent;
     margin: -6% 29%;
     width:80px;
@@ -373,7 +365,7 @@ html{
     content: "";
     position: absolute;
     background:url('pics/office1.jpg') no-repeat center center/cover;
-    width: 200px;
+    width: 250px;
     height: 350px;
     z-index: -2;
     opacity: 2;
@@ -385,7 +377,7 @@ html{
     background-color: rgb(0, 0, 0);
     
     height: 350px;
-    width: 200px;
+    width: 250px;
     z-index: -1;
     opacity: 0.5;
 }
@@ -399,7 +391,7 @@ html{
     position: absolute;
     border: 2px solid black;
     margin: 10% 30%;
-    width: 200px;
+    width: 250px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -433,7 +425,7 @@ html{
     content: "";
     position: absolute;
     background:url('pics/office.jpg') no-repeat center center/cover;
-    width: 200px;
+    width: 250px;
     height: 350px;
     z-index: -2;
     opacity: 2;
@@ -443,7 +435,7 @@ html{
     position: absolute;
     background-color: rgb(0, 0, 0);
     height: 350px;
-    width: 200px;
+    width: 250px;
     z-index: -1;
     opacity: 0.5;
 }
@@ -564,7 +556,7 @@ html{
    position: relative;
    display: flex;
    width: 100%;
-   height: 700px;
+   height: 600px;
    flex-wrap: wrap;
 }
 #served div{
@@ -577,7 +569,7 @@ html{
     font-weight: 700;
     font-size:40px;
     padding-left: 50%;
-    margin-top: -10%;
+    margin-top: -15%;
 }
 #served strong{
     color: orange;
@@ -588,6 +580,7 @@ html{
     padding: 10% 18% 0px;
 }
 #ad{
+    margin-top: 5%;
     height: 250px;
     width: 230px;
     padding-left: 18%;
@@ -603,7 +596,7 @@ html{
     font-optical-sizing: auto;
     /* font-weight: 140; */
     font-style: normal;
-    padding-left: 65%;
+    padding-left: 68%;
     margin-top: -23%;
 }
 /* Case studies */
@@ -612,7 +605,7 @@ html{
     display: flex;
     /* border: 2px solid red; */
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 #chp{
     position: absolute;
@@ -784,7 +777,7 @@ html{
 /* Agency */
 #agency{
     /* border: 2px solid red; */
-    height: 900px;
+    height: 700px;
     width: 101%;
     position: relative;
     display: flex;
@@ -796,14 +789,14 @@ html{
     border: 2px solid black;
     border: transparent;
    
-    height: 900px;
+    height: 700px;
     width: 50.5%;
 }
 #ofimg{
     content: "";
     position: absolute;
     width: 50%;
-    height: 900px;
+    height: 700px;
        
     z-index: -2;
     opacity: 2;
@@ -812,7 +805,7 @@ html{
     content: "";
     position: absolute;
     background-color: rgb(0, 0, 0);
-    height: 900px;
+    height: 700px;
     width: 50%;
     z-index: -1;
     opacity: 0.8;
@@ -840,11 +833,11 @@ html{
     margin-left: 15%;
 }
 #agen{
-    /* background: #b371b1b1; */
+    /* background: #b371b1b1;   */
     position: absolute;
     width: 40%;
-    height: 100%;
-    margin-left: 60%;
+    /* height: 0px; */
+    margin-left: 54%;
     margin-top: 10%;
 }
 #agen h1{
@@ -888,6 +881,7 @@ html{
    justify-content: center;
    width: 101%;
    height: 60px;
-   margin-top: 80px;
+   /* margin-top: 2px; */
+   margin-bottom: -10px;
    margin-left: -9px;
 }
